@@ -18,11 +18,11 @@ function App() {
           <div className="profile-text">
             <p className="small-title">РЕЗЮМЕ</p>
             <h1 id="name">Дастан Тажибаев</h1>
-            <h2>Программист · Senior-разработчик</h2>
+            <h2>Программист </h2>
             <p>Интересуюсь веб-разработкой и созданием сайтов. Хочу развиваться в программировании и работать над практическими задачами.</p>
             <a className="button" href={`tel:${phone}`}>Телефон: {phone}</a>
           </div>
-          <img className="profile-photo" src="./assets/photo-placeholder.svg" alt="Место для фотографии Дастана Тажибаева" />
+          <img className="profile-photo" src="./assets/dastan.jpg" alt="Дастан Тажибаев" />
         </section>
 
         <section className="section" id="about">
